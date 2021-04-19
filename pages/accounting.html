@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up/Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/loginregister.css">
+</head>
+<body>
+	<div class="main-box">
+		<div class="form-box">
+			<div class="button-box">
+				<div id="account-btn"></div>
+				<button type="button" class="toggle-btn" onclick="Login()">Login</button>
+				<button type="button" class="toggle-btn" onclick="Register()">Rigister</button>
+			</div>
+			<div class="social-icon">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+			<form id="login" action="" class="input-group">
+				<input type="text" class="input-field" placeholder="User Name" name="">
+				<input type="text" class="input-field" placeholder="Password" name="">
+				<input type="checkbox" class="checkbox" name="">
+				<span>Remeber Me</span>
+				<button type="submit" class="submit-btn">Input</button>
+				<a href="../index.html" class="bth-btn">Back to Home</a>
+			</form>
+			<form id="register" action="" class="input-group">
+				<input type="text" class="input-field" placeholder="User Name" name="">
+				<input type="email" class="input-field" placeholder="email" name="">
+				<input type="text" class="input-field" placeholder="Password" name="">
+				<input type="checkbox" class="checkbox" name="">
+				<span>I accept Terms and Conditions</span>
+				<button type="submit" class="submit-btn">Register</button>
+				<a href="../index.html" class="bth-btn">Back to Home</a>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/loginregister.js"></script>
+</body>
+</html>
