@@ -1,2 +1,2 @@
-# soorkypga
+# soorkyoga
 One page website
